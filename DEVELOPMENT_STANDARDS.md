@@ -29,17 +29,22 @@
 - **Enterprise Mocks:** Implement light local integrations mimicking enterprise structures (HR, CRM, Finance) using sample JSON data.
 - **Continuous Docker:** The demo instance must be containerized and updated automatically after every sprint completion.
 
+## Memory Persistence Protocol (The Law of the Chronicle)
+- **Constant Background Logging:** Every significant decision, architectural choice, or project milestone MUST be recorded in the persistent memory (`memory/*.md`) immediately upon execution.
+- **Zero-Loss State:** This ensures that in the event of a system failure or session restart, the full state and logic of the Project Gungnir ecosystem can be reconstructed instantly.
+- **Audit Requirement:** Every agent turn resulting in an action MUST include a corresponding memory update.
+- **Persistence Confirmation:** Every "Forge Update" MUST include a confirmation that the decision/action has been persisted to memory.
+
 ## Token & Resource Management
 - **Efficiency First:** Agents must use the most token-efficient model available for the specific task.
 - **Monitoring:** Anubis must track token usage across the sprint and flag any unexpected spikes.
 - **System Load Throttling:** If the Jetson system load average exceeds 10.0 or thermals exceed 75°C, the team must immediately pause non-critical background tasks for a 15-minute "Forge Cool-down."
 
 ## Team roles:
-- **Odin (All-Father):** Workspace orchestrator & Token oversight.
+- **Odin (All-Father):** Workspace orchestrator, Token oversight, and Memory compliance.
 - **Tesla (Architect):** Design and module mapping for the showcase.
 - **Qin Shi Huang (Lead):** Technical execution and capturing visual evidence.
 - **Apollo (Marketing/Frontend):** Creating the Apple-style GitHub.io showcase site.
-- **Hermes (Integrations):** Messenger of the Gods. Lead for Open API and Enterprise Integration mocks.
 - **Anubis (Guardian of the Scales):** Pipeline management & Resource balancing.
 - **Hermes (Messenger of the Gods):** Integrations, API Specialist, and Demo Instance Maintainer.
 - **Valkyrie Assistants:** 
